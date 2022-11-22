@@ -1,0 +1,8 @@
+export gtf=/share/NGS/public/ngs_resource/genome_reference/GRCh38/annotation/gencode_v33/gencode.v33.annotation.gtf
+export otf=gencode.v33.tss.txt
+cat $gtf | awk '{if($3=="transcript") \
+print $1,$4,$5,$7,$9,$10,$12,$14,$16}' \
+| sed 's/[\"\;]//g' > $otf
+
+
+
