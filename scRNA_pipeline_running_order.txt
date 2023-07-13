@@ -1,0 +1,13 @@
+/share/dept_bbsr/Projects/Chahoud_Jad/4357_sc_RNA_seq_2023/scripts/scRNA_beta
+
+1) submit_0_1_scrublet.sh
+
+2) submit_0_2_doublet_single_sample.sh
+
+3) submit_1_process_single_sample.sh
+
+4) run_2_merged_QC_png.R
+
+5) run_3_merged_filtered_QC_png.R
+
+6) run_4_integrate.sh
